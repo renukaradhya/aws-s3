@@ -1,4 +1,4 @@
-package com.icarat.amzons3.sample.config;
+package com.icarat.amazons3.sample.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

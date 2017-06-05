@@ -1,4 +1,4 @@
-package com.icarat.amzons3.sample.exception;
+package com.icarat.amazons3.sample.exception;
 
 public class HandleAmazonClientException extends Exception{
 

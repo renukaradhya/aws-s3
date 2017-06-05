@@ -1,15 +1,15 @@
-package com.icarat.amzons3.sample.advice.controller;
+package com.icarat.amazons3.sample.advice.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.icarat.amzons3.sample.dto.ErrorMessageDto;
-import com.icarat.amzons3.sample.exception.Conflict;
-import com.icarat.amzons3.sample.exception.DataNotFoundException;
-import com.icarat.amzons3.sample.exception.HandleAmazonClientException;
-import com.icarat.amzons3.sample.exception.HandleAmazonServiceException;
+import com.icarat.amazons3.sample.dto.ErrorMessageDto;
+import com.icarat.amazons3.sample.exception.Conflict;
+import com.icarat.amazons3.sample.exception.DataNotFoundException;
+import com.icarat.amazons3.sample.exception.HandleAmazonClientException;
+import com.icarat.amazons3.sample.exception.HandleAmazonServiceException;
 
 /**
  * RestExceptionHandler is Exception Advice controller

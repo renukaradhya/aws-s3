@@ -1,4 +1,4 @@
-package com.icarat.amzons3.sample.service.impl;
+package com.icarat.amazons3.sample.service.impl;
 
 import java.io.File;
 
@@ -29,11 +29,11 @@ import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.amazonaws.services.s3.model.S3Object;
 import com.amazonaws.services.s3.model.S3ObjectInputStream;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
-import com.icarat.amzons3.sample.exception.Conflict;
-import com.icarat.amzons3.sample.exception.DataNotFoundException;
-import com.icarat.amzons3.sample.exception.HandleAmazonClientException;
-import com.icarat.amzons3.sample.exception.HandleAmazonServiceException;
-import com.icarat.amzons3.sample.service.S3service;
+import com.icarat.amazons3.sample.exception.Conflict;
+import com.icarat.amazons3.sample.exception.DataNotFoundException;
+import com.icarat.amazons3.sample.exception.HandleAmazonClientException;
+import com.icarat.amazons3.sample.exception.HandleAmazonServiceException;
+import com.icarat.amazons3.sample.service.S3service;
 
 @Service
 public class S3serviceImpl implements S3service {

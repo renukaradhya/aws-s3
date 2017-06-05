@@ -1,4 +1,4 @@
-package com.icarat.amzons3.sample.dto;
+package com.icarat.amazons3.sample.dto;
 
 public class UploadDto {
 	

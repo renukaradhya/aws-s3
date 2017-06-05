@@ -1,14 +1,14 @@
-package com.icarat.amzons3.sample.service;
+package com.icarat.amazons3.sample.service;
 
 import java.io.IOException;
 import java.util.List;
 
 import com.amazonaws.services.s3.model.Bucket;
 import com.amazonaws.services.s3.model.S3ObjectSummary;
-import com.icarat.amzons3.sample.exception.Conflict;
-import com.icarat.amzons3.sample.exception.DataNotFoundException;
-import com.icarat.amzons3.sample.exception.HandleAmazonClientException;
-import com.icarat.amzons3.sample.exception.HandleAmazonServiceException;
+import com.icarat.amazons3.sample.exception.Conflict;
+import com.icarat.amazons3.sample.exception.DataNotFoundException;
+import com.icarat.amazons3.sample.exception.HandleAmazonClientException;
+import com.icarat.amazons3.sample.exception.HandleAmazonServiceException;
 
 public interface S3service {
 
